@@ -14,7 +14,17 @@ bool isNeon(int n){
  
 }
 
+// PRINT NEON NUMBERS FROM 1 TO 100
+
+int printN(){
+    for(int i =1; i<=100;i++){
+        if(isNeon(i)){
+            cout<<i<<" ";
+        }
+    }
+}
+
 int main(){
-    cout << isNeon(9) ;
+    cout << printN() ;
     return 0;
 }
